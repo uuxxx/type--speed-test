@@ -1,0 +1,23 @@
+.alert {
+  position: absolute;
+  max-width: 400px;
+  text-align: center;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, -300px);
+  transition: all .5s ease-in;
+}
+
+
+.show {
+  transform: translate(-50%, 0);
+}
+
+.hide {
+  transform: translate(-50%, -300px);
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'antd/dist/antd.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #55C5FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,li {
+    list-style: none;
+}

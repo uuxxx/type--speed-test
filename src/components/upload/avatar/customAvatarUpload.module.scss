@@ -1,0 +1,36 @@
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputAvatarLabel {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 50%;
+  background: rgba(0, 0, 0, .2);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px);
+  transition: all .2s ease-in;
+
+  &.editable {
+    transform: translateY(0);
+    &:hover {
+      background: rgba(0, 0, 0, .4);
+    }
+  }
+}
+
+.addIcon {
+  font-size: 18px;
+}
